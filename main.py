@@ -1,16 +1,10 @@
-# This is a sample Python script.
+import cars as car
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+firstcar = car.Cars("mercedes AMG",2016, 5.5, 120.000, 80.00)
+secondcar = car.Cars("Golf 7",2012, 1.2, 150.000, 7.400)
+thirdcar = car.Cars("Golf 6",2012, 1.6, 231.000, 4.900 )
+forthcar = car.Cars("golf plus",2011, 2.0, 200.000, 7.900 )
+fifthcar = car.Cars("golf 5",2008, 1.4, 258.000, 3.950 )
+sixthcar = car.Cars("golf polo", 2010, 1.6, 219.000, 1.800 )
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
